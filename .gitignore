@@ -1,0 +1,46 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore TypeScript source maps
+*.map
+
+# Ignore build output directories
+dist/
+out/
+
+# Ignore any environment-specific configuration files
+.env
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore editor-specific project files
+.idea/
+*.suo
+*.ntvs*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn errors file
+yarn-error.log
+
+# Ignore Jest coverage output
+coverage/
+
+# Ignore project-specific configuration files
+project-config.json
+
+# Ignore any secrets or sensitive information
+secrets.json
