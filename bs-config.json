@@ -1,6 +1,6 @@
 
 {
   "server": {
-    "baseDir": ["./src", "./dist"]
+    "baseDir": ["./src", "./dist", "./assets"]
   }
 }
