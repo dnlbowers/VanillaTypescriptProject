@@ -1,4 +1,13 @@
-header {
-  background-color: red;
-  height: 300px;
+.main-page-header {
+    background-color: #00008b;
+    color: #fff;
+    height: 150px;
+    nav ul li {
+        list-style: none;
+        padding: 0 10px;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
 }
