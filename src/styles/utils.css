@@ -1,0 +1,22 @@
+/*----------------------------------------------Flex options */
+.d-fx {
+  display: flex;
+}
+
+.fx-column {
+  flex-direction: column;
+}
+
+.fx-row {
+  flex-direction: row;
+}
+
+.fx-space-around {
+  justify-content: space-around;
+}
+
+.fx-items-center {
+  align-items: center;
+}
+
+/*# sourceMappingURL=utils.css.map */
