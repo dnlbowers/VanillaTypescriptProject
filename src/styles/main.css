@@ -1,17 +1,46 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "utils.scss";
- *   |         ^^^^^^^^^^^^
- *   '
- *   main.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
+/*---------------------------------------------- Display options (not flex) */
+.d-block {
   display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"utils.scss\";\d\a   \2502          ^^^^^^^^^^^^\a   \2575 \a   main.scss 1:9  root stylesheet";
 }
+
+/*---------------------------------------------- Flex options */
+.d-fx {
+  display: flex;
+}
+
+.fx-col {
+  flex-direction: column;
+}
+
+.fx-row {
+  flex-direction: row;
+}
+
+.fx-just-around {
+  justify-content: space-around;
+}
+
+.fx-just-between {
+  justify-content: space-between;
+}
+
+.fx-items-center {
+  align-items: center;
+}
+
+/*---------------------------------------------- Position options */
+.p-abs {
+  position: absolute;
+}
+
+.p-rel {
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -3,7 +3,7 @@
 * a component to the DOM when the script is loaded
 */
 export class ComponentLoader {
-    private url:string
+    readonly url:string
     constructor(url: string) {
         this.url = url;
         this.loadScript();

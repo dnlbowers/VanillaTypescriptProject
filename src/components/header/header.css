@@ -1,13 +1,74 @@
 .main-page-header {
   background-color: #00008b;
   color: #fff;
-  height: 150px;
+  height: 70px;
 }
-.main-page-header nav ul li {
+.main-page-header .logo {
+  right: 15px;
+  top: 9px;
+}
+.main-page-header input[type=checkbox] {
+  display: block;
+  height: 32px;
+  left: 20px;
+  opacity: 0;
+  top: 20px;
+  width: 30px;
+  z-index: 5;
+}
+.main-page-header input[type=checkbox]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+.main-page-header input[type=checkbox]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(35deg);
+}
+.main-page-header input[type=checkbox]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+.main-page-header input[type=checkbox]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-35deg);
+}
+.main-page-header .hamburger-lines {
+  height: 23px;
+  left: 20px;
+  top: 17px;
+  width: 35px;
+  z-index: 2;
+}
+.main-page-header .hamburger-lines .line {
+  background: #fff;
+  border-radius: 10px;
+  height: 4px;
+  width: 100%;
+}
+.main-page-header .hamburger-lines .line1 {
+  transform-origin: 0 0;
+  transition: transform 0.4s ease-in-out;
+}
+.main-page-header .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+.main-page-header .hamburger-lines .line3 {
+  transform-origin: 0 100%;
+  transition: transform 0.4s ease-in-out;
+}
+.main-page-header .navbar .menu-items {
+  background: #00008b;
+  box-shadow: 5px 0px 10px 0px #dbce46;
+  height: 100vh;
+  margin-left: -40px;
+  max-width: 180px;
+  padding-left: 50px;
+  padding-top: 100px;
+  transform: translate(-150%);
+  transition: transform 0.5s ease-in-out;
+}
+.main-page-header .navbar .menu-items li {
   list-style: none;
+  margin-bottom: 16px;
   padding: 0 10px;
 }
-.main-page-header nav ul li a {
+.main-page-header .navbar .menu-items li a {
   text-decoration: none;
   color: #fff;
 }

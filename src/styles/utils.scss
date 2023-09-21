@@ -1,9 +1,14 @@
-/*----------------------------------------------Flex options */
+/*---------------------------------------------- Display options (not flex) */
+.d-block {
+  display: block;
+}
+
+/*---------------------------------------------- Flex options */
 .d-fx {
   display: flex;
 }
 
-.fx-column {
+.fx-col {
   flex-direction: column;
 }
 
@@ -11,10 +16,23 @@
   flex-direction: row;
 }
 
-.fx-space-around {
+.fx-just-around {
   justify-content: space-around
+}
+
+.fx-just-between {
+  justify-content: space-between;
 }
 
 .fx-items-center {
   align-items: center;
+}
+
+/*---------------------------------------------- Position options */
+.p-abs {
+  position: absolute;
+}
+
+.p-rel {
+  position: relative;
 }

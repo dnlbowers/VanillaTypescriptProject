@@ -19,4 +19,5 @@ to attract users but to grow and learn my full stack skills using nothing but Ty
 * Practical Fullstack Theories.
 
 ### Credits
-[Fix for using ES6 modules](https://flaviocopes.com/fix-cannot-use-import-outside-module/)
+* [Fix for using ES6 modules](https://flaviocopes.com/fix-cannot-use-import-outside-module/)
+* [Potential burger Menus](https://alvarotrigo.com/blog/hamburger-menu-css/)
